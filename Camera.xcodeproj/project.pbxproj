@@ -12,6 +12,7 @@
 		7974F0DE1AFEF69F00C379A7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7974F0DD1AFEF69F00C379A7 /* Images.xcassets */; };
 		7974F0E11AFEF69F00C379A7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7974F0DF1AFEF69F00C379A7 /* LaunchScreen.xib */; };
 		7974F0ED1AFEF69F00C379A7 /* CameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7974F0EC1AFEF69F00C379A7 /* CameraTests.m */; };
+		7974F0F81AFEF6C300C379A7 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7974F0F71AFEF6C300C379A7 /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 		7974F0E61AFEF69F00C379A7 /* CameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7974F0EB1AFEF69F00C379A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7974F0EC1AFEF69F00C379A7 /* CameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraTests.m; sourceTree = "<group>"; };
+		7974F0F61AFEF6C300C379A7 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		7974F0F71AFEF6C300C379A7 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,10 +79,8 @@
 		7974F0D51AFEF69F00C379A7 /* Camera */ = {
 			isa = PBXGroup;
 			children = (
-				7974F0DA1AFEF69F00C379A7 /* AppDelegate.h */,
-				7974F0DB1AFEF69F00C379A7 /* AppDelegate.m */,
-				7974F0DD1AFEF69F00C379A7 /* Images.xcassets */,
-				7974F0DF1AFEF69F00C379A7 /* LaunchScreen.xib */,
+				7974F0F61AFEF6C300C379A7 /* RootViewController.h */,
+				7974F0F71AFEF6C300C379A7 /* RootViewController.m */,
 				7974F0D61AFEF69F00C379A7 /* Supporting Files */,
 			);
 			path = Camera;
@@ -88,6 +89,10 @@
 		7974F0D61AFEF69F00C379A7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7974F0DA1AFEF69F00C379A7 /* AppDelegate.h */,
+				7974F0DB1AFEF69F00C379A7 /* AppDelegate.m */,
+				7974F0DD1AFEF69F00C379A7 /* Images.xcassets */,
+				7974F0DF1AFEF69F00C379A7 /* LaunchScreen.xib */,
 				7974F0D71AFEF69F00C379A7 /* Info.plist */,
 				7974F0D81AFEF69F00C379A7 /* main.m */,
 			);
@@ -212,6 +217,7 @@
 			files = (
 				7974F0DC1AFEF69F00C379A7 /* AppDelegate.m in Sources */,
 				7974F0D91AFEF69F00C379A7 /* main.m in Sources */,
+				7974F0F81AFEF6C300C379A7 /* RootViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
